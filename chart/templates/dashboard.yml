@@ -9,6 +9,7 @@ metadata:
     {{ include "goldpinger.labels" . | nindent 4 }}
 spec:
   name: goldpinger
+  json: ""
   configMapRef:
     name: grafana-dashboard-{{ include "goldpinger.name" . }}
     key: goldpinger.json
