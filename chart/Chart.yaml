@@ -2,7 +2,7 @@ apiVersion: v2
 name: goldpinger
 description: Goldpinger component for Karavel
 type: application
-version: 0.1.0-SNAPSHOT
+version: 1.0.0
 appVersion: 3.3.0
 maintainers:
   - name: MatteoJoliveau
