@@ -49,7 +49,7 @@ spec:
               value: "kubernetes.io"
             - name: LABEL_SELECTOR
               value: app.kubernetes.io/name={{ include "goldpinger.name" . }},karavel.io/component-name={{ .Chart.Name }}
-          image: "docker.io/bloomberg/goldpinger:v{{ .Chart.AppVersion }}"
+          image: "quay.io/karavel/goldpinger:v{{ .Chart.AppVersion }}"
           imagePullPolicy: Always
           securityContext:
             allowPrivilegeEscalation: false
