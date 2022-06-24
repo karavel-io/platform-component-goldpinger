@@ -1,3 +1,5 @@
+namespace: goldpinger
+
 prometheus:
   enable: false
 
